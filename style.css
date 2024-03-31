@@ -109,7 +109,6 @@ h1{
 	padding: 0;
 	margin: -1px;
 	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
 	white-space: nowrap; /* added line */
 	border: 0; 
 }
@@ -212,10 +211,6 @@ input{
 input:focus, select:focus, textarea:focus{
 	border: 2px inset #0a58ff;
 	box-shadow: 0 0 0 0.09em currentColor;
-}
-
-input:error, select:error, textarea:error{
-	background-color: #c71819;
 }
 
 fieldset{
