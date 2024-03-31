@@ -236,7 +236,7 @@ legend{
 
 fieldset label{
 	width: 60%;
-    display: inline-block;
+    display: block;
     margin: 0 10px;
 }
 
