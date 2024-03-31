@@ -237,8 +237,10 @@ legend{
 
 fieldset label{
 	width: 50%;
-    display: block;
     margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 fieldset input{
