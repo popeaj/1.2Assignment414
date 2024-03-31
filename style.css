@@ -54,14 +54,14 @@ table {
 	line-height: 1.35;
 }
 
-#skipLink{
+.skipLink{
 	position: absolute;
 	left: -999px;
 	height:  0;
 	width:  0;
 }
 
-#skipLink:focus{
+.skipLink:focus{
 	top: 1em;
 	left: 1em;
 	display: block;
