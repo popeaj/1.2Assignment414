@@ -37,21 +37,15 @@
             
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone">
-            
                 <fieldset>
-                    <legend>Contact Method <span class="required">*</span></legend>
-                    <div>
-                        <label>
-                            <input type="radio" name="contact-method" value="email" required> Email
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            <input type="radio" name="contact-method" value="phone" required> Phone
-                        </label>
-                    </div>
+                    <legend>Preferred Contact Method <span class="required">*</span></legend>
+                    <label>
+                        <input type="radio" name="contact-method" value="phone" required> Phone
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-method" value="email" required> Email
+                    </label>
                 </fieldset>                
-                
                 <label for="state">State of Residence</label>
                 <select id="state" name="state">
                     <option value="" disabled selected>Select your state</option>
