@@ -259,6 +259,7 @@ textarea{
 	height: 100px;
 	margin: 0.25em auto 0.5em auto;
 	padding: 0.5em;
+    resize: none;
 }
 
 input[type="radio"]{
