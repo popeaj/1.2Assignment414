@@ -226,7 +226,6 @@ fieldset{
 	border-radius: 0.2em;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-    text-align: center;
 	padding: 0.5em 0 1em 0.5em;
 	
 }
